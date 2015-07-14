@@ -1,0 +1,87 @@
+textarea{
+	display: block;
+	margin-bottom: 10px;
+}
+#errormes{
+	color: #F00;
+}
+.img-list-wraper{
+	position: relative;
+	width: 500px;
+	height: 700px;
+	overflow: hidden;
+	margin: 0 auto;
+}
+.img-list{
+	position: absolute;
+	width: 3500px;
+	height: 700px;
+}
+img{
+	float: left;
+	width: 500px;
+	height: 700px;
+}
+.circle{
+	position: relative;
+	margin: 0 auto;
+	width: 500px;
+}
+a{
+	display: inline-block;
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+	border: 1px silid #000;
+	background-color: #666;
+}
+.active{
+	background-color: #000;
+}
+/*输入提示框*/
+.prompt{
+	display: none;
+	width: 200px;
+	border:1px solid #000;
+}
+.prompt ul{
+	margin: 0;
+	padding: 0;
+	text-indent: 8px;
+	line-height: 2em;
+	list-style-type: none;
+}
+.prompt li:hover{
+	background-color: #DDD;
+}
+.lihover{
+	background-color: #DDD;
+}
+.keyword{
+	color: red;
+}
+/*界面拖拽交互*/
+.wraper{
+	position: relative;
+}
+.container{
+	width: 200px;
+	height: 500px;
+	border: 1px solid #000;
+	background-color: #FFF;
+}
+#container1{
+	position: absolute;
+	left: 100px;
+}
+#container2{
+	position: absolute;
+	left: 400px;
+}
+.block{
+	position: absolute;
+	width: 200px;
+	height: 50px;
+	border-bottom: 1px solid #000;
+	background-color: #F00;
+}
